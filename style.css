@@ -1,0 +1,62 @@
+.btn{
+    padding: 20px 50px;
+    background-color: rgb(34, 161, 45);
+    color: white;
+    border-radius: 16px;
+    margin: 100px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(111, 240, 26);
+}
+.red{
+    float: right;
+    background-color: red;
+    margin: 10px;
+}
+.red:hover{
+    background-color: rgb(253, 109, 109);
+}
+.green{
+    float: right;
+    margin: 10px;
+}
+.bg-modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+.cont-modal{
+    width: 30vw;
+    height: 30vh;
+    position: fixed;
+    border-radius: 16px;
+    top: 35vh;
+    left: 35vw;
+    background-color: white;
+}
+.btn-container-modal{
+    position: absolute;
+    bottom: 4vh;
+    right: 4vw;
+}
+.text-modal{
+    font-weight: 800;
+    font-size: 24px;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+}
+.modal{
+    display: none;
+}
+.close-modal{
+font-size: 36px;
+position: absolute;
+top: 1vh;
+right: 1vw;
+}
